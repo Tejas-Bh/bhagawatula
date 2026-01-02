@@ -1,0 +1,13 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+<div align="center" style="padding: 1em">
+<h1>Welcome to the AHT Ticketing Page!</h1>
+<p>Click "Tickets" to manage/view all tickets.</p>
+<br />
+<a class="btn btn-primary" href="{{ url_for('logout') }}" aria-hidden="true">Logout</a>
+</div>
+<br />
+<br />
+<div style="background-color: black; text-align: center; padding: 1rem; color: white">Flask-Aht-Tickets by <b>Tejas Bhagawatula</b></div>
+{% endblock %}
